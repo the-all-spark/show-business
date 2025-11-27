@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Inter Regular';
+  src: url('inter-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Semibold';
+  src: url('Inter-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: semibold;
+}
+
+@font-face {
+  font-family: 'Poppins Semibold';
+  src: url('poppins-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: semibold;
+}

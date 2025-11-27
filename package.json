@@ -1,0 +1,12 @@
+{
+  "name": "show-business",
+  "description": "Show Business page",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "author": "Anna German",
+  "devDependencies": {
+    "prettier": "3.7.0"
+  }
+}
