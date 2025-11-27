@@ -34,6 +34,13 @@
 }
 
 @font-face {
+  font-family: 'Poppins Medium';
+  src: url('poppins-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
   font-family: 'League Gothic Regular';
   src: url('league-gothic.ttf') format('truetype');
   font-weight: 400;

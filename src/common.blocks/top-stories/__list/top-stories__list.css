@@ -1,0 +1,6 @@
+.top-stories__list {
+  list-style: none;
+  counter-reset: counter;
+  margin-top: 16px;
+  padding-left: 50px;
+}
