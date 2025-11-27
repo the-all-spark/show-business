@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="common.blocks/button/button.css" />
 
     <link rel="stylesheet" href="common.blocks/main/main.css" />
+    <link rel="stylesheet" href="common.blocks/main/__odd-screen/main__odd-screen.css" />
+
     <link rel="stylesheet" href="common.blocks/main-article/main-article.css" />
     <link rel="stylesheet" href="common.blocks/main-article/__image/main-article__image.css" />
     <link rel="stylesheet" href="common.blocks/main-article/__title/main-article__title.css" />
@@ -34,6 +36,7 @@
 
     <link rel="stylesheet" href="common.blocks/top-story-article/top-story-article.css" />
     <link rel="stylesheet" href="common.blocks/top-story-article/__author/top-story-article__author.css" />
+    <link rel="stylesheet" href="common.blocks/top-story-article/__title/top-story-article__title.css" />
     <link
       rel="stylesheet"
       href="common.blocks/top-story-article/__time-comments-block/top-story-article__time-comments-block.css"
@@ -48,6 +51,9 @@
     <link rel="stylesheet" href="common.blocks/top-stories/top-stories.css" />
     <link rel="stylesheet" href="common.blocks/top-stories/__list/top-stories__list.css" />
     <link rel="stylesheet" href="common.blocks/top-stories/__item/top-stories__item.css" />
+    <link rel="stylesheet" href="common.blocks/top-stories/__title/top-stories__title.css" />
+
+    <link rel="stylesheet" href="common.blocks/odd-screen/odd-screen.css" />
   </head>
   <body class="page">
     <header class="header">
@@ -72,132 +78,134 @@
     </header>
 
     <main class="main">
-      <article class="main-article">
-        <img
-          class="main-article__image"
-          src="assets/images/Princess-Beatrice-Wedding.webp"
-          alt="Princess Beatrice's Wedding"
-        />
-        <h2 class="h2 main-article__title">Princess Beatrice's Wedding</h2>
-        <p class="news-text main-article__text">
-          Coverage of Princess Beatrice's wedding to Edoardo Mapelli Mozzi in July 2020. Coverage of Princess Beatrice's
-          wedding to Edoardo Mapelli.
-        </p>
-      </article>
+      <div class="main__odd-screen odd-screen">
+        <article class="main-article">
+          <img
+            class="main-article__image"
+            src="assets/images/Princess-Beatrice-Wedding.webp"
+            alt="Princess Beatrice's Wedding"
+          />
+          <h2 class="h2 main-article__title">Princess Beatrice's Wedding</h2>
+          <p class="news-text main-article__text">
+            Coverage of Princess Beatrice's wedding to Edoardo Mapelli Mozzi in July 2020. Coverage of Princess
+            Beatrice's wedding to Edoardo Mapelli.
+          </p>
+        </article>
 
-      <section class="top-stories">
-        <h4 class="h3">Top Stories</h4>
-        <ol class="top-stories__list">
-          <li class="top-stories__item">
-            <article class="top-story-article">
-              <section class="top-story-article__info-block">
-                <h4 class="h4">Kim Kardashian and Kanye West Divorce</h4>
-                <p class="top-story-article__author">David Pierce</p>
-                <div class="top-story-article__time-comments-block">
-                  <time class="top-story-article__info-text">10:00 AM</time>
-                  <span class="top-story-article__info-text">|</span>
-                  <div class="top-story-article__comments-block">
-                    <img
-                      class="top-story-article__comments-icon"
-                      src="assets/icons/comments-icon.svg"
-                      alt="Comments icon"
-                    />
-                    <span class="top-story-article__info-text">87</span>
+        <section class="top-stories">
+          <h4 class="h3 top-stories__title">Top Stories</h4>
+          <ol class="top-stories__list">
+            <li class="top-stories__item">
+              <article class="top-story-article">
+                <section class="top-story-article__info-block">
+                  <h4 class="h4 top-story-article__title">Kim Kardashian and Kanye West Divorce</h4>
+                  <p class="top-story-article__author">David Pierce</p>
+                  <div class="top-story-article__time-comments-block">
+                    <time class="top-story-article__info-text">10:00 AM</time>
+                    <span class="top-story-article__info-text">|</span>
+                    <div class="top-story-article__comments-block">
+                      <img
+                        class="top-story-article__comments-icon"
+                        src="assets/icons/comments-icon.svg"
+                        alt="Comments icon"
+                      />
+                      <span class="top-story-article__info-text">87</span>
+                    </div>
                   </div>
-                </div>
-              </section>
-              <section class="top-story-article__image-block">
-                <img
-                  class="top-story-article__image"
-                  src="assets/images/Kim Kardashian_Kanye West_Divorce.webp"
-                  alt="Kim Kardashian and Kanye West Divorce"
-                />
-              </section>
-            </article>
-          </li>
-          <li class="top-stories__item">
-            <article class="top-story-article">
-              <section class="top-story-article__info-block">
-                <h4 class="h4">Prince Harry and Meghan Markle's Exit from Royal Duties</h4>
-                <p class="top-story-article__author">David Pierce</p>
-                <div class="top-story-article__time-comments-block">
-                  <time class="top-story-article__info-text">10:00 AM</time>
-                  <span class="top-story-article__info-text">|</span>
-                  <div class="top-story-article__comments-block">
-                    <img
-                      class="top-story-article__comments-icon"
-                      src="assets/icons/comments-icon.svg"
-                      alt="Comments icon"
-                    />
-                    <span class="top-story-article__info-text">87</span>
+                </section>
+                <section class="top-story-article__image-block">
+                  <img
+                    class="top-story-article__image"
+                    src="assets/images/Kim Kardashian_Kanye West_Divorce.webp"
+                    alt="Kim Kardashian and Kanye West Divorce"
+                  />
+                </section>
+              </article>
+            </li>
+            <li class="top-stories__item">
+              <article class="top-story-article">
+                <section class="top-story-article__info-block">
+                  <h4 class="h4 top-story-article__title">Prince Harry and Meghan Markle's Exit from Royal Duties</h4>
+                  <p class="top-story-article__author">David Pierce</p>
+                  <div class="top-story-article__time-comments-block">
+                    <time class="top-story-article__info-text">10:00 AM</time>
+                    <span class="top-story-article__info-text">|</span>
+                    <div class="top-story-article__comments-block">
+                      <img
+                        class="top-story-article__comments-icon"
+                        src="assets/icons/comments-icon.svg"
+                        alt="Comments icon"
+                      />
+                      <span class="top-story-article__info-text">87</span>
+                    </div>
                   </div>
-                </div>
-              </section>
-              <section class="top-story-article__image-block">
-                <img
-                  class="top-story-article__image"
-                  src="assets/images/Prince Harry and Meghan Markle Exit.webp"
-                  alt="Prince Harry and Meghan Markle's Exit from Royal Duties"
-                />
-              </section>
-            </article>
-          </li>
-          <li class="top-stories__item">
-            <article class="top-story-article">
-              <section class="top-story-article__info-block">
-                <h4 class="h4">Adele's weight extremal loss transformation</h4>
-                <p class="top-story-article__author">David Pierce</p>
-                <div class="top-story-article__time-comments-block">
-                  <time class="top-story-article__info-text">10:00 AM</time>
-                  <span class="top-story-article__info-text">|</span>
-                  <div class="top-story-article__comments-block">
-                    <img
-                      class="top-story-article__comments-icon"
-                      src="assets/icons/comments-icon.svg"
-                      alt="Comments icon"
-                    />
-                    <span class="top-story-article__info-text">87</span>
+                </section>
+                <section class="top-story-article__image-block">
+                  <img
+                    class="top-story-article__image"
+                    src="assets/images/Prince Harry and Meghan Markle Exit.webp"
+                    alt="Prince Harry and Meghan Markle's Exit from Royal Duties"
+                  />
+                </section>
+              </article>
+            </li>
+            <li class="top-stories__item">
+              <article class="top-story-article">
+                <section class="top-story-article__info-block">
+                  <h4 class="h4 top-story-article__title">Adele's weight extremal loss transformation</h4>
+                  <p class="top-story-article__author">David Pierce</p>
+                  <div class="top-story-article__time-comments-block">
+                    <time class="top-story-article__info-text">10:00 AM</time>
+                    <span class="top-story-article__info-text">|</span>
+                    <div class="top-story-article__comments-block">
+                      <img
+                        class="top-story-article__comments-icon"
+                        src="assets/icons/comments-icon.svg"
+                        alt="Comments icon"
+                      />
+                      <span class="top-story-article__info-text">87</span>
+                    </div>
                   </div>
-                </div>
-              </section>
-              <section class="top-story-article__image-block">
-                <img
-                  class="top-story-article__image"
-                  src="assets/images/Adele Weight Transformation.webp"
-                  alt="Adele's Weight extremal Loss Transformation"
-                />
-              </section>
-            </article>
-          </li>
-          <li class="top-stories__item">
-            <article class="top-story-article">
-              <section class="top-story-article__info-block">
-                <h4 class="h4">Bennifer Reunion (Jennifer Lopez and Ben Affleck)</h4>
-                <p class="top-story-article__author">David Pierce</p>
-                <div class="top-story-article__time-comments-block">
-                  <time class="top-story-article__info-text">10:00 AM</time>
-                  <span class="top-story-article__info-text">|</span>
-                  <div class="top-story-article__comments-block">
-                    <img
-                      class="top-story-article__comments-icon"
-                      src="assets/icons/comments-icon.svg"
-                      alt="Comments icon"
-                    />
-                    <span class="top-story-article__info-text">87</span>
+                </section>
+                <section class="top-story-article__image-block">
+                  <img
+                    class="top-story-article__image"
+                    src="assets/images/Adele Weight Transformation.webp"
+                    alt="Adele's Weight extremal Loss Transformation"
+                  />
+                </section>
+              </article>
+            </li>
+            <li class="top-stories__item">
+              <article class="top-story-article">
+                <section class="top-story-article__info-block">
+                  <h4 class="h4 top-story-article__title">Bennifer Reunion (Jennifer Lopez and Ben Affleck)</h4>
+                  <p class="top-story-article__author">David Pierce</p>
+                  <div class="top-story-article__time-comments-block">
+                    <time class="top-story-article__info-text">10:00 AM</time>
+                    <span class="top-story-article__info-text">|</span>
+                    <div class="top-story-article__comments-block">
+                      <img
+                        class="top-story-article__comments-icon"
+                        src="assets/icons/comments-icon.svg"
+                        alt="Comments icon"
+                      />
+                      <span class="top-story-article__info-text">87</span>
+                    </div>
                   </div>
-                </div>
-              </section>
-              <section class="top-story-article__image-block">
-                <img
-                  class="top-story-article__image"
-                  src="assets/images/Bennifer Reunion.webp"
-                  alt="Bennifer Reunion (Jennifer Lopez and Ben Affleck)"
-                />
-              </section>
-            </article>
-          </li>
-        </ol>
-      </section>
+                </section>
+                <section class="top-story-article__image-block">
+                  <img
+                    class="top-story-article__image"
+                    src="assets/images/Bennifer Reunion.webp"
+                    alt="Bennifer Reunion (Jennifer Lopez and Ben Affleck)"
+                  />
+                </section>
+              </article>
+            </li>
+          </ol>
+        </section>
+      </div>
     </main>
   </body>
 </html>
