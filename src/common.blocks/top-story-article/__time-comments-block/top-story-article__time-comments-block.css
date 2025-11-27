@@ -1,0 +1,7 @@
+.top-story-article__time-comments-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 9px;
+}
