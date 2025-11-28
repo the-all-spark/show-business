@@ -19,7 +19,7 @@
 @forward 'common.blocks/button/button';
 
 @forward 'common.blocks/main/main';
-@forward 'common.blocks/main/__odd-screen/main__odd-screen';
+@forward 'common.blocks/main/__screen/main__screen';
 
 @forward 'common.blocks/main-article/main-article';
 @forward 'common.blocks/main-article/__image/main-article__image';
@@ -29,9 +29,12 @@
 @forward 'common.blocks/top-story-article/top-story-article';
 @forward 'common.blocks/top-story-article/__author/top-story-article__author';
 @forward 'common.blocks/top-story-article/__title/top-story-article__title';
+@forward 'common.blocks/top-story-article/__info-block/top-story-article__info-block';
 @forward 'common.blocks/top-story-article/__time-comments-block/top-story-article__time-comments-block';
 @forward 'common.blocks/top-story-article/__comments-block/top-story-article__comments-block';
 @forward 'common.blocks/top-story-article/__image-block/top-story-article__image-block';
+@forward 'common.blocks/top-story-article/__image-block/_background/top-story-article__image-block_background_with-bg';
+@forward 'common.blocks/top-story-article/__image-block/_background/top-story-article__image-block_background_without-bg';
 @forward 'common.blocks/top-story-article/__info-text/top-story-article__info-text';
 
 @forward 'common.blocks/top-stories/top-stories';
@@ -39,4 +42,4 @@
 @forward 'common.blocks/top-stories/__item/top-stories__item';
 @forward 'common.blocks/top-stories/__title/top-stories__title';
 
-@forward 'common.blocks/odd-screen/odd-screen';
+@forward 'common.blocks/screen/screen';
