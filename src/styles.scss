@@ -1,0 +1,42 @@
+@forward 'fonts';
+
+@forward 'common.blocks/page/page';
+
+@forward 'common.blocks/menu/menu';
+@forward 'common.blocks/menu/__list/menu__list';
+@forward 'common.blocks/menu/__item/menu__item';
+@forward 'common.blocks/menu/__link/menu__link';
+
+@forward 'common.blocks/header/header';
+@forward 'common.blocks/header/__button/header__button';
+
+@forward 'common.blocks/h1/h1';
+@forward 'common.blocks/h2/h2';
+@forward 'common.blocks/h3/h3';
+@forward 'common.blocks/h4/h4';
+@forward 'common.blocks/news-text/news-text';
+
+@forward 'common.blocks/button/button';
+
+@forward 'common.blocks/main/main';
+@forward 'common.blocks/main/__odd-screen/main__odd-screen';
+
+@forward 'common.blocks/main-article/main-article';
+@forward 'common.blocks/main-article/__image/main-article__image';
+@forward 'common.blocks/main-article/__title/main-article__title';
+@forward 'common.blocks/main-article/__text/main-article__text';
+
+@forward 'common.blocks/top-story-article/top-story-article';
+@forward 'common.blocks/top-story-article/__author/top-story-article__author';
+@forward 'common.blocks/top-story-article/__title/top-story-article__title';
+@forward 'common.blocks/top-story-article/__time-comments-block/top-story-article__time-comments-block';
+@forward 'common.blocks/top-story-article/__comments-block/top-story-article__comments-block';
+@forward 'common.blocks/top-story-article/__image-block/top-story-article__image-block';
+@forward 'common.blocks/top-story-article/__info-text/top-story-article__info-text';
+
+@forward 'common.blocks/top-stories/top-stories';
+@forward 'common.blocks/top-stories/__list/top-stories__list';
+@forward 'common.blocks/top-stories/__item/top-stories__item';
+@forward 'common.blocks/top-stories/__title/top-stories__title';
+
+@forward 'common.blocks/odd-screen/odd-screen';

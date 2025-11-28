@@ -3,10 +3,22 @@
   "description": "Show Business page",
   "scripts": {
     "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write .",
+    "build:css": "sass src/styles.scss dist/styles.css",
+    "watch:css": "sass --watch src/styles.scss:dist/styles.css",
+    "build:html": "cpx src/*.html dist",
+    "build:assets": "cpx src/assets/**/* dist/assets",
+    "build:all": "npm run build:css && npm run build:html && npm run build:assets",
+    "serve": "live-server --watch=dist --wait=200 dist",
+    "dev": "concurrently \"npm run watch:css\" \"npm run serve\"",
+    "start": "npm run build:all && npm run dev"
   },
   "author": "Anna German",
   "devDependencies": {
-    "prettier": "3.7.0"
+    "concurrently": "^9.2.1",
+    "cpx": "^1.5.0",
+    "live-server": "^1.2.2",
+    "prettier": "3.7.0",
+    "sass": "^1.94.2"
   }
 }
