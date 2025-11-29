@@ -15,11 +15,13 @@
 @forward 'common.blocks/h3/h3';
 @forward 'common.blocks/h4/h4';
 @forward 'common.blocks/news-text/news-text';
+@forward 'common.blocks/h3/_displaying/h3_displaying_none';
 
 @forward 'common.blocks/button/button';
 
 @forward 'common.blocks/main/main';
 @forward 'common.blocks/main/__screen/main__screen';
+@forward 'common.blocks/main/__other-news/main__other-news';
 
 @forward 'common.blocks/main-article/main-article';
 @forward 'common.blocks/main-article/__image/main-article__image';
@@ -43,3 +45,7 @@
 @forward 'common.blocks/top-stories/__title/top-stories__title';
 
 @forward 'common.blocks/screen/screen';
+
+@forward 'common.blocks/another-article/another-article';
+@forward 'common.blocks/another-article/__title/another-article__title';
+@forward 'common.blocks/another-article/__text/another-article__text';
