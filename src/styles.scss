@@ -1,6 +1,8 @@
 @forward 'fonts';
 
 @forward 'common.blocks/page/page';
+@forward 'common.blocks/page/__dividing-line/page__dividing-line';
+@forward 'common.blocks/page/__footer/page__footer';
 
 @forward 'common.blocks/menu/menu';
 @forward 'common.blocks/menu/__list/menu__list';
@@ -19,12 +21,10 @@
 
 @forward 'common.blocks/button/button';
 
-@forward 'common.blocks/main/main';
 @forward 'common.blocks/main/__screen/main__screen';
 @forward 'common.blocks/main/__other-news/main__other-news';
 
 @forward 'common.blocks/main-article/main-article';
-@forward 'common.blocks/main-article/__image/main-article__image';
 @forward 'common.blocks/main-article/__title/main-article__title';
 @forward 'common.blocks/main-article/__text/main-article__text';
 
@@ -49,3 +49,11 @@
 @forward 'common.blocks/another-article/another-article';
 @forward 'common.blocks/another-article/__title/another-article__title';
 @forward 'common.blocks/another-article/__text/another-article__text';
+
+@forward 'common.blocks/dividing-line/dividing-line';
+
+@forward 'common.blocks/footer/footer';
+@forward 'common.blocks/footer/__logo/footer__logo';
+@forward 'common.blocks/footer/__text-block/footer__text-block';
+@forward 'common.blocks/footer/__link/footer__link';
+@forward 'common.blocks/footer/__separator/footer__separator';
