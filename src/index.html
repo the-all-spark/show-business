@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHOW BUSINESS</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" href="assets/fonts/inter-bold.woff2" as="font" crossorigin />
+    <link rel="preload" href="assets/fonts/inter-medium.woff2" as="font" crossorigin />
+    <link rel="preload" href="assets/fonts/inter-SemiBold.woff2" as="font" crossorigin />
+    <link rel="preload" href="assets/fonts/inter-regular.woff2" as="font" crossorigin />
+    <link rel="preload" as="image" href="assets/images/Princess-Beatrice-Wedding.webp" fetchpriority="high" />
   </head>
   <body class="page">
     <header class="header">
@@ -35,6 +40,10 @@
             class="main-article__image"
             src="assets/images/Princess-Beatrice-Wedding.webp"
             alt="Photo of Princess Beatrice"
+            width="620"
+            height="409"
+            loading="eager"
+            fetchpriority="high"
           />
           <h2 class="h2 main-article__title">Princess Beatrice's Wedding</h2>
           <p class="news-text main-article__text">
