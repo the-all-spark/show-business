@@ -1,14 +1,18 @@
 {
   "name": "show-business",
   "description": "Show Business page",
+  "homepage": "https://the-all-spark.github.io/show-business/",
   "scripts": {
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build:clean",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "build:css": "sass src/styles.scss dist/styles.css",
-    "watch:css": "sass --watch src/styles.scss:dist/styles.css",
-    "build:html": "cpx src/*.html dist",
-    "build:assets": "cpx src/assets/**/* dist/assets",
+    "build:css": "sass src/styles.scss dist/styles.css --no-source-map",
+    "watch:css": "sass --watch src/styles.scss:dist/styles.css --no-source-map",
+    "build:html": "cpx \"src/*.html\" dist",
+    "build:assets": "cpx \"src/assets/**/*\" dist/assets",
     "build:all": "npm run build:css && npm run build:html && npm run build:assets",
+    "build:clean": "rd /s /q dist && npm run build:all",
     "serve": "live-server --watch=dist --wait=200 dist",
     "dev": "concurrently \"npm run watch:css\" \"npm run serve\"",
     "start": "npm run build:all && npm run dev"
@@ -17,6 +21,7 @@
   "devDependencies": {
     "concurrently": "^9.2.1",
     "cpx": "^1.5.0",
+    "gh-pages": "^6.3.0",
     "live-server": "^1.2.2",
     "prettier": "3.7.0",
     "sass": "^1.94.2"
