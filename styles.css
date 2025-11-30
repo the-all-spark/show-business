@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "Inter Regular";
+  src: url("assets/fonts/inter-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Medium";
+  src: url("assets/fonts/inter-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Semibold";
+  src: url("assets/fonts/inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url("assets/fonts/inter-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins Semibold";
+  src: url("assets/fonts/poppins-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("assets/fonts/poppins-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "League Gothic Regular";
+  src: url("assets/fonts/league-gothic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.page {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.page__dividing-line {
+  margin-top: 59px;
+}
+
+.page__footer {
+  margin: 59px 0 52px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-gap: 15px;
+}
+
+.menu__item {
+  margin-left: 18px;
+}
+
+.menu__link {
+  color: #000000;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 68px;
+  padding: 0 25px 0 32px;
+}
+
+.header__button {
+  margin-left: 131px;
+}
+
+.h1 {
+  color: #2ad18a;
+  font-family: "Poppins Semibold", sans-serif;
+  font-size: 24px;
+}
+
+.h2 {
+  color: #000000;
+  font-family: "League Gothic Regular", sans-serif;
+  font-size: 72px;
+  line-height: 0;
+}
+
+.h3 {
+  color: #2ad18a;
+  font-family: "Inter Bold", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+.h4 {
+  color: #000000;
+  font-family: "Inter Bold", sans-serif;
+  font-size: 22px;
+  line-height: 1.4em;
+}
+
+.news-text {
+  color: #000000;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.h3_displaying_none {
+  display: none;
+}
+
+.button {
+  width: 89px;
+  height: 40px;
+  color: #ffffff;
+  font-family: "Inter Semibold";
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #2ad18a;
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+.main__screen {
+  margin-top: 39px;
+  margin-bottom: 56px;
+}
+
+.main__other-news {
+  margin-bottom: 22px;
+}
+
+.main-article {
+  width: 620px;
+}
+
+.main-article__title {
+  margin-left: -1px;
+  margin-bottom: 64px;
+}
+
+.main-article__text {
+  margin-left: -1px;
+}
+
+.top-story-article {
+  width: 571px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 17px;
+}
+
+.top-story-article__author {
+  color: #2ad18a;
+  font-family: "Inter Medium", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  margin: 9px 0;
+}
+
+.top-story-article__title {
+  margin: 0;
+}
+
+.top-story-article__info-block {
+  width: 430px;
+}
+
+.top-story-article__time-comments-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.top-story-article__comments-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  margin-left: 9px;
+}
+
+.top-story-article__image-block {
+  width: 244px;
+  height: 123px;
+}
+
+.top-story-article__image-block_background_with-bg {
+  background-color: #dfdee7;
+  text-align: center;
+}
+
+.top-story-article__image-block_background_without-bg {
+  text-align: right;
+}
+
+.top-story-article__info-text {
+  color: #9da3ae;
+  font-family: "Inter Medium", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+.top-stories {
+  position: relative;
+}
+
+.top-stories__list {
+  list-style: none;
+  counter-reset: counter;
+  margin-top: 0;
+  padding-left: 48px;
+}
+
+.top-stories__item {
+  margin-top: 15px;
+  margin-bottom: 24px;
+  counter-increment: counter;
+}
+
+.top-stories__item::before {
+  content: counter(counter);
+  position: absolute;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8eaed;
+  border-radius: 50%;
+  color: #2ad18a;
+  font-family: "Poppins Medium", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+.top-stories__title {
+  padding-left: 48px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.another-article {
+  width: 290px;
+}
+
+.another-article__title {
+  margin-top: 13px;
+}
+
+.another-article__text {
+  margin-top: -13px;
+}
+
+.dividing-line {
+  width: 100%;
+  height: 3px;
+  background-color: #9da3ae;
+}
+
+.footer {
+  padding: 1px 79px;
+}
+
+.footer__logo {
+  color: #000000;
+  font-family: "Poppins Semibold", sans-serif;
+  font-size: 24px;
+  margin-top: 18px;
+}
+
+.footer__text-block {
+  margin: 26px 0;
+}
+
+.footer__link {
+  color: #000000;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__separator {
+  color: #000000;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  text-transform: uppercase;
+  margin: 0 1px;
+}
