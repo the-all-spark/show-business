@@ -48,6 +48,7 @@ Application is available at the [address](https://the-all-spark.github.io/show-b
 `$ npm run build:css` - build CSS files using sass  
 `$ npm run build:html` - copy HTML files from `src/` to `dist/`  
 `$ npm run build:assets` - copy files and folders in 'assets' from `src/assets/` to `dist/assets/`  
+`$ npm run build:js` - copy files in 'scripts' from `src/scripts/` to `dist/scripts/`
 `$ npm run build:all` - build CSS, copy HTML and assets files  
 `$ npm run build:clean` - delete `dist/` folder and build application again
 

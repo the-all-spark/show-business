@@ -6,6 +6,18 @@
   padding: 0px 65px 0 73px;
 }
 
+@media (max-width: 900px) {
+  .header {
+    height: auto;
+  }
+}
+
+@media (max-width: 530px) {
+  .header {
+    padding: 0px 44px 0 41px;
+  }
+}
+
 @media (max-width: 460px) {
   .header {
     padding: 0px 36px 0 35px;

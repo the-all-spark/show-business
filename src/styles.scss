@@ -10,8 +10,18 @@
 @forward 'common.blocks/menu/__item/menu__item';
 @forward 'common.blocks/menu/__link/menu__link';
 
+@forward 'common.blocks/burger-menu/burger-menu';
+@forward 'common.blocks/burger-menu/_border/burger-menu_border_added';
+@forward 'common.blocks/burger-menu/__list/burger-menu__list';
+@forward 'common.blocks/burger-menu/__item/burger-menu__item';
+@forward 'common.blocks/burger-menu/__link/burger-menu__link';
+@forward 'common.blocks/burger-menu/__button/burger-menu__button';
+@forward 'common.blocks/burger-menu/__image/burger-menu__image';
+@forward 'common.blocks/burger-menu/__list/_displaying/burger-menu__list_displaying_showed';
+
 @forward 'common.blocks/header/header';
 @forward 'common.blocks/header/__button/header__button';
+@forward 'common.blocks/header/__burger-menu/header__burger-menu';
 
 @forward 'common.blocks/h1/h1';
 @forward 'common.blocks/h2/h2';
