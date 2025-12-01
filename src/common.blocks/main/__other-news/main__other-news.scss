@@ -1,3 +1,9 @@
 .main__other-news {
   margin-bottom: 22px;
 }
+
+@media (max-width: 1100px) {
+  .main__other-news {
+    flex-wrap: wrap;
+  }
+}

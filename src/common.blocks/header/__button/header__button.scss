@@ -1,3 +1,9 @@
 .header__button {
   margin-left: 131px;
 }
+
+@media (max-width: 1100px) {
+  .header__button {
+    margin-left: 25px;
+  }
+}

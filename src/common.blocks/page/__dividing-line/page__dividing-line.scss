@@ -2,3 +2,9 @@
   width: 95%;
   margin: 59px auto;
 }
+
+@media (max-width: 900px) {
+  .page__dividing-line {
+    width: 85%;
+  }
+}

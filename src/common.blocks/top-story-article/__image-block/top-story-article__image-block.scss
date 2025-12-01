@@ -2,3 +2,16 @@
   width: 200px;
   height: 123px;
 }
+
+@media (max-width: 900px) {
+  .top-story-article__image-block {
+    width: 63%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-story-article__image-block {
+    width: 100%;
+    height: auto;
+  }
+}

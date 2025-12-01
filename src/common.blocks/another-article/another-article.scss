@@ -1,3 +1,15 @@
 .another-article {
   width: 100%;
 }
+
+@media (max-width: 1100px) {
+  .another-article {
+    width: 45%;
+  }
+}
+
+@media (max-width: 460px) {
+  .another-article {
+    width: 75%;
+  }
+}

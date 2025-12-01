@@ -5,3 +5,10 @@
   justify-content: center;
   column-gap: 30px;
 }
+
+@media (max-width: 900px) {
+  .screen {
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+}

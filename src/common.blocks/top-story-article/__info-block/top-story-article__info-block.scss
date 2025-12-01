@@ -1,3 +1,9 @@
 .top-story-article__info-block {
   width: 61%;
 }
+
+@media (max-width: 900px) {
+  .top-story-article__info-block {
+    width: 100%;
+  }
+}

@@ -10,6 +10,7 @@
     <link rel="preload" href="assets/fonts/inter-SemiBold.woff2" as="font" crossorigin />
     <link rel="preload" href="assets/fonts/inter-regular.woff2" as="font" crossorigin />
     <link rel="preload" as="image" href="assets/images/Princess-Beatrice-Wedding.webp" fetchpriority="high" />
+    <script src="scripts/burger-menu.js"></script>
   </head>
   <body class="page">
     <header class="header">
@@ -31,6 +32,38 @@
         </ul>
       </nav>
       <button class="button header__button">Log in</button>
+
+      <nav class="burger-menu header__burger-menu">
+        <button class="burger-menu__button">
+          <svg
+            class="burger-menu__image"
+            width="33"
+            height="28"
+            viewBox="0 0 33 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2.33333C0 1.04271 1.05335 0 2.35714 0H30.6429C31.9467 0 33 1.04271 33 2.33333C33 3.62396 31.9467 4.66667 30.6429 4.66667H2.35714C1.05335 4.66667 0 3.62396 0 2.33333ZM0 14C0 12.7094 1.05335 11.6667 2.35714 11.6667H30.6429C31.9467 11.6667 33 12.7094 33 14C33 15.2906 31.9467 16.3333 30.6429 16.3333H2.35714C1.05335 16.3333 0 15.2906 0 14ZM33 25.6667C33 26.9573 31.9467 28 30.6429 28H2.35714C1.05335 28 0 26.9573 0 25.6667C0 24.376 1.05335 23.3333 2.35714 23.3333H30.6429C31.9467 23.3333 33 24.376 33 25.6667Z"
+              fill="black"
+            />
+          </svg>
+        </button>
+        <ul class="burger-menu__list">
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Home</a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Explore</a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Inspiration</a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Contact us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="main page__main">

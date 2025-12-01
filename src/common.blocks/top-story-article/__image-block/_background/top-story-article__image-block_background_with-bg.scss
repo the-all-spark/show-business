@@ -4,3 +4,10 @@
   background-color: v.$color-bg-image;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .top-story-article__image-block_background_with-bg {
+    background-color: transparent;
+    text-align: left;
+  }
+}

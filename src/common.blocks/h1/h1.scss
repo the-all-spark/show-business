@@ -5,3 +5,16 @@
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 24px;
 }
+
+@media (max-width: 500px) {
+  .h1 {
+    width: 30%;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 380px) {
+  .h1 {
+    font-size: 20px;
+  }
+}
