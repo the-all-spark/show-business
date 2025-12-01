@@ -20,3 +20,15 @@
   font-size: 16px;
   line-height: 1.4em;
 }
+
+@media (max-width: 900px) {
+  .top-stories__item {
+    width: 46%;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-stories__item {
+    width: 100%;
+  }
+}
