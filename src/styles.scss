@@ -28,6 +28,7 @@
 @forward 'common.blocks/main-article/main-article';
 @forward 'common.blocks/main-article/__title/main-article__title';
 @forward 'common.blocks/main-article/__text/main-article__text';
+@forward 'common.blocks/main-article/__image/main-article__image';
 
 @forward 'common.blocks/top-story-article/top-story-article';
 @forward 'common.blocks/top-story-article/__author/top-story-article__author';
@@ -38,6 +39,7 @@
 @forward 'common.blocks/top-story-article/__image-block/top-story-article__image-block';
 @forward 'common.blocks/top-story-article/__image-block/_background/top-story-article__image-block_background_with-bg';
 @forward 'common.blocks/top-story-article/__image-block/_background/top-story-article__image-block_background_without-bg';
+@forward 'common.blocks/top-story-article/__image/top-story-article__image';
 @forward 'common.blocks/top-story-article/__info-text/top-story-article__info-text';
 
 @forward 'common.blocks/top-stories/top-stories';
@@ -50,6 +52,7 @@
 @forward 'common.blocks/another-article/another-article';
 @forward 'common.blocks/another-article/__title/another-article__title';
 @forward 'common.blocks/another-article/__text/another-article__text';
+@forward 'common.blocks/another-article/__image/another-article__image';
 
 @forward 'common.blocks/dividing-line/dividing-line';
 

@@ -1,3 +1,9 @@
 .top-story-article__image-block_background_without-bg {
   text-align: right;
 }
+
+@media (max-width: 900px) {
+  .top-story-article__image-block_background_without-bg {
+    text-align: left;
+  }
+}

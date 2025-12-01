@@ -3,3 +3,15 @@
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 24px;
 }
+
+@media (max-width: 380px) {
+  .h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .h1 {
+    line-height: 1;
+  }
+}

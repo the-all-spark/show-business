@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .top-story-article__image {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .top-story-article__image {
+    width: 85%;
+  }
+}

@@ -4,3 +4,10 @@
   flex-direction: row;
   column-gap: 16px;
 }
+
+@media (max-width: 900px) {
+  .top-story-article {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}
