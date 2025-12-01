@@ -1,4 +1,7 @@
-@forward 'fonts';
+/*@forward 'variables';*/
+@use 'styles/variables' as v;
+
+@forward 'styles/fonts';
 
 @forward 'common.blocks/page/page';
 @forward 'common.blocks/page/__main/page__main';

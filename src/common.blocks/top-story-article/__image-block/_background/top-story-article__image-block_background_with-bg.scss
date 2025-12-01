@@ -1,4 +1,6 @@
+@use '../../../../styles/variables' as v;
+
 .top-story-article__image-block_background_with-bg {
-  background-color: #dfdee7;
+  background-color: v.$color-bg-image;
   text-align: center;
 }

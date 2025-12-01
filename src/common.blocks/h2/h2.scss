@@ -1,5 +1,7 @@
+@use '../../styles/variables' as v;
+
 .h2 {
-  color: #000000;
+  color: v.$color-text-general;
   font-family: 'League Gothic Regular', sans-serif;
   font-size: 72px;
   line-height: 0;

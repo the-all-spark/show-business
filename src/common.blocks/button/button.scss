@@ -1,11 +1,13 @@
+@use '../../styles/variables' as v;
+
 .button {
   width: 89px;
   height: 40px;
-  color: #ffffff;
+  color: v.$color-text-button;
   font-family: 'Inter Semibold';
   font-size: 14px;
   text-decoration: none;
-  background-color: #2ad18a;
+  background-color: v.$color-bg-button;
   padding: 8px 20px;
   border-radius: 8px;
   border: 1px solid transparent;

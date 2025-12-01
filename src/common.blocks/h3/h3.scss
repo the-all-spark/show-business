@@ -1,5 +1,7 @@
+@use '../../styles/variables' as v;
+
 .h3 {
-  color: #2ad18a;
+  color: v.$color-text-highlighted;
   font-family: 'Inter Bold', sans-serif;
   font-size: 16px;
   line-height: 1.4em;

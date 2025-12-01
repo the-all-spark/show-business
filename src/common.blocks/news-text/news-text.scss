@@ -1,5 +1,7 @@
+@use '../../styles/variables' as v;
+
 .news-text {
-  color: #000000;
+  color: v.$color-text-general;
   font-family: 'Inter Regular', sans-serif;
   font-size: 18px;
   line-height: 1.6em;

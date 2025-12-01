@@ -1,5 +1,7 @@
+@use '../../../styles/variables' as v;
+
 .footer__logo {
-  color: #000000;
+  color: v.$color-text-general;
   font-family: 'Poppins Semibold', sans-serif;
   font-size: 24px;
   margin-top: 18px;

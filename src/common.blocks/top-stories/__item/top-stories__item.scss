@@ -1,3 +1,5 @@
+@use '../../../styles/variables' as v;
+
 .top-stories__item {
   margin-top: 15px;
   margin-bottom: 24px;
@@ -13,9 +15,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e8eaed;
+  background-color: v.$color-bg-number;
   border-radius: 50%;
-  color: #2ad18a;
+  color: v.$color-text-highlighted;
   font-family: 'Poppins Medium', sans-serif;
   font-size: 16px;
   line-height: 1.4em;

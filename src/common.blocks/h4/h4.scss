@@ -1,5 +1,7 @@
+@use '../../styles/variables' as v;
+
 .h4 {
-  color: #000000;
+  color: v.$color-text-general;
   font-family: 'Inter Bold', sans-serif;
   font-size: 22px;
   line-height: 1.4em;

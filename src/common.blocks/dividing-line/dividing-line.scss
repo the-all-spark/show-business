@@ -1,4 +1,6 @@
+@use '../../styles/variables' as v;
+
 .dividing-line {
   height: 2px;
-  background-color: #9da3ae;
+  background-color: v.$color-bg-line;
 }
