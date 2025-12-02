@@ -2,14 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHOW BUSINESS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Latest news, articles, and insights about the show business industry. Celebrity updates, entertainment news."
+    />
+    <meta property="og:title" content="SHOW BUSINESS | Entertainment News & Industry Insights" />
+    <meta property="og:description" content="News and articles about the show business industry" />
+    <meta
+      property="og:image"
+      content="https://the-all-spark.github.io/show-business/assets/images/Princess-Beatrice-Wedding.webp"
+    />
+    <meta property="og:url" content="https://the-all-spark.github.io/show-business/" />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preload" href="assets/fonts/inter-bold.woff2" as="font" crossorigin />
     <link rel="preload" href="assets/fonts/inter-medium.woff2" as="font" crossorigin />
     <link rel="preload" href="assets/fonts/inter-SemiBold.woff2" as="font" crossorigin />
     <link rel="preload" href="assets/fonts/inter-regular.woff2" as="font" crossorigin />
     <link rel="preload" as="image" href="assets/images/Princess-Beatrice-Wedding.webp" fetchpriority="high" />
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+    <script src="scripts/burger-menu.js" defer></script>
   </head>
   <body class="page">
     <header class="header">
@@ -31,9 +45,41 @@
         </ul>
       </nav>
       <button class="button header__button">Log in</button>
+
+      <nav class="burger-menu header__burger-menu">
+        <button class="burger-menu__button" aria-label="Открыть/закрыть меню">
+          <svg
+            class="burger-menu__image"
+            width="33"
+            height="28"
+            viewBox="0 0 33 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 2.33333C0 1.04271 1.05335 0 2.35714 0H30.6429C31.9467 0 33 1.04271 33 2.33333C33 3.62396 31.9467 4.66667 30.6429 4.66667H2.35714C1.05335 4.66667 0 3.62396 0 2.33333ZM0 14C0 12.7094 1.05335 11.6667 2.35714 11.6667H30.6429C31.9467 11.6667 33 12.7094 33 14C33 15.2906 31.9467 16.3333 30.6429 16.3333H2.35714C1.05335 16.3333 0 15.2906 0 14ZM33 25.6667C33 26.9573 31.9467 28 30.6429 28H2.35714C1.05335 28 0 26.9573 0 25.6667C0 24.376 1.05335 23.3333 2.35714 23.3333H30.6429C31.9467 23.3333 33 24.376 33 25.6667Z"
+              fill="black"
+            />
+          </svg>
+        </button>
+        <ul class="burger-menu__list">
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Home</a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Explore</a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Inspiration</a>
+          </li>
+          <li class="burger-menu__item">
+            <a href="#" class="burger-menu__link">Contact us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <main class="main">
+    <main class="main page__main">
       <div class="main__screen screen">
         <article class="main-article">
           <img
@@ -287,6 +333,8 @@
             class="main-article__image"
             src="assets/images/Prince-Philip-Passing.webp"
             alt="Photo of Prince Philip"
+            width="620"
+            height="409"
           />
           <h2 class="h2 main-article__title">Prince Philip's Passing</h2>
           <p class="news-text main-article__text">
@@ -579,8 +627,7 @@
             alt="Photo of Reese Witherspoon"
           />
           <h4 class="h4 another-article__title">Reese Witherspoon's Production Ventures</h4>
-          <!--! Ошибка в тексте -->
-          <p class="news-text another-article__text">News on Leonardo DiCaprio's ongoing environmental.</p>
+          <p class="news-text another-article__text">News on Reese Witherspoon's production ventures.</p>
         </article>
 
         <article class="another-article">
@@ -646,8 +693,7 @@
         <span class="footer__separator">/</span>
         <a href="#" class="footer__link">About</a>
         <span class="footer__separator">/</span>
-        <!-- ! ошибка в тексте: Ethnics-->
-        <a href="#" class="footer__link">Etnics statement</a>
+        <a href="#" class="footer__link">Ethnics statement</a>
       </p>
     </footer>
   </body>
