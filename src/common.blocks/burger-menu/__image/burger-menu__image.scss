@@ -1,7 +1,9 @@
+@use '../../../styles/variables' as v;
+
 .burger-menu__image {
   display: block;
 }
 
 .burger-menu__image path {
-  fill: #2ad18a;
+  fill: v.$color-bg-button;
 }

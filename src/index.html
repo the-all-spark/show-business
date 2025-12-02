@@ -2,15 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHOW BUSINESS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Latest news, articles, and insights about the show business industry. Celebrity updates, entertainment news."
+    />
+    <meta property="og:title" content="SHOW BUSINESS | Entertainment News & Industry Insights" />
+    <meta property="og:description" content="News and articles about the show business industry" />
+    <meta
+      property="og:image"
+      content="https://the-all-spark.github.io/show-business/assets/images/Princess-Beatrice-Wedding.webp"
+    />
+    <meta property="og:url" content="https://the-all-spark.github.io/show-business/" />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preload" href="assets/fonts/inter-bold.woff2" as="font" crossorigin />
     <link rel="preload" href="assets/fonts/inter-medium.woff2" as="font" crossorigin />
     <link rel="preload" href="assets/fonts/inter-SemiBold.woff2" as="font" crossorigin />
     <link rel="preload" href="assets/fonts/inter-regular.woff2" as="font" crossorigin />
     <link rel="preload" as="image" href="assets/images/Princess-Beatrice-Wedding.webp" fetchpriority="high" />
-    <script src="scripts/burger-menu.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+    <script src="scripts/burger-menu.js" defer></script>
   </head>
   <body class="page">
     <header class="header">
@@ -34,7 +47,7 @@
       <button class="button header__button">Log in</button>
 
       <nav class="burger-menu header__burger-menu">
-        <button class="burger-menu__button">
+        <button class="burger-menu__button" aria-label="Открыть/закрыть меню">
           <svg
             class="burger-menu__image"
             width="33"
