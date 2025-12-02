@@ -12,12 +12,14 @@ Web application that allows users to view the latest news and articles about the
 
 Application is available at the [address](https://the-all-spark.github.io/show-business/).
 
-# (Functionality)
+# Functionality
 
 - Used HTML5 and CSS3 (semantic layout, flexbox);
-- Created blocks (and directories for each block) according to the BEM methodology (`page`; `header`, `main`, `dividing-line`, `footer`; `main-article`, `top-story-article`, `another-article`; `top-stories`; `screen`; `h1`, `h2`, `h3`, `h4`, `news-text`; `menu`, `button`);
+- Created blocks (and directories for each block) according to the BEM methodology (`page`; `header`, `main`, `dividing-line`, `footer`; `main-article`, `top-story-article`, `another-article`; `top-stories`; `screen`; `h1`, `h2`, `h3`, `h4`, `news-text`; `menu`, `burger-menu`, `button`);
 - Followed the principles of 'pixel perfect' and accessibility;
-- (Created a responsive layout).
+- Created a responsive layout (for breakpoints: 1250px, 1100px, 900px, 768px, 460px, 380px, 320px);
+- Added a burger menu when the screen width is less than 900px;
+- Added a js-code to hide/show the burger menu.
 
 # How to run the app locally
 
@@ -48,12 +50,26 @@ Application is available at the [address](https://the-all-spark.github.io/show-b
 `$ npm run build:css` - build CSS files using sass  
 `$ npm run build:html` - copy HTML files from `src/` to `dist/`  
 `$ npm run build:assets` - copy files and folders in 'assets' from `src/assets/` to `dist/assets/`  
-`$ npm run build:js` - copy files in 'scripts' from `src/scripts/` to `dist/scripts/`
+`$ npm run build:js` - copy files in 'scripts' from `src/scripts/` to `dist/scripts/`  
 `$ npm run build:all` - build CSS, copy HTML and assets files  
 `$ npm run build:clean` - delete `dist/` folder and build application again
 
 `$ npm run serve` - run live-server with application  
 `$ npm run deploy` - build application and deploy it to GitHub Pages
+
+# Results of application testing
+
+HTML validation  
+![HTML validation](/src/assets/testing_results/HTML-validation.jpg)
+
+CSS validation  
+![CSS validation](/src/assets/testing_results/CSS-validation.jpg)
+
+Accessibility validation (with WAVE)
+![Accessibility validation (with WAVE)](/src/assets/testing_results/WAVE.jpg)
+
+Performance, Accessibility, Best Practices and SEO (with Lighthouse)
+![Performance, Accessibility, Best Practices and SEO](/src/assets/testing_results/Lighthouse.jpg)
 
 # Resources
 
@@ -72,7 +88,7 @@ Application is available at the [address](https://the-all-spark.github.io/show-b
 
 ### Tools for checking code
 
-- _'Lighthouse'_ tab in the browser's developer tools for checking Performance, Accessibility, Best Practices and SEO;
-- [WAVE Browser Extensions](https://wave.webaim.org/) for checking accessibility;
 - [W3C Markup Validation Service](https://validator.w3.org/) for checking HTML code;
-- [CSS Validation Service](https://jigsaw.w3.org/css-validator/) for checking CSS code.
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/) for checking CSS code;
+- 'Lighthouse'\_ tab in the browser's developer tools for checking Performance, Accessibility, Best Practices and SEO;
+- [WAVE Browser Extensions](https://wave.webaim.org/) for checking accessibility;
